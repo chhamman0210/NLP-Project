@@ -6,7 +6,6 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
 [![HuggingFace](https://img.shields.io/badge/🤗-Transformers-yellow)](https://huggingface.co/)
 [![Model](https://img.shields.io/badge/Model-XLM--RoBERTa--base-green)](https://huggingface.co/xlm-roberta-base)
-[![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
 [![Course](https://img.shields.io/badge/Course-DS605%20%2F%20DSL605-purple)](.)
 
 ---
@@ -36,8 +35,6 @@ This project presents a **multilingual NLP framework** for automatically classif
 
 The system uses **contextualized weak supervision** (BERT-based pseudo-labeling) combined with **XLM-RoBERTa-base** fine-tuning, achieving **>85% F1** with fewer than 2,000 expert labels and **<0.5 sec inference per document**.
 
-> **Course:** DS605 / DSL605 — Deep Learning for Low Resource NLP  
-> **Student:** Chhamman Lal | **ID:** P25DS501
 
 ---
 
@@ -62,7 +59,7 @@ India's criminal justice system faces:
 - ✅ **Fairness Evaluation** — Demographic parity gap < 3% using `fairlearn`
 - ✅ **Low-Resource Efficiency** — 90% reduction in annotation cost vs. supervised baselines
 - ✅ **Fast Inference** — < 0.4 sec/doc on GPU
-- ✅ **Zero-shot Transfer** — Hindi support with only 400 expert labels
+
 
 ---
 
@@ -92,14 +89,7 @@ India's criminal justice system faces:
 | BERT-base-uncased | 82% | 81% | 80% | 82% |
 | **XLM-RoBERTa-base (Ours)** | **90%** | **91%** | **91%** | **89%** |
 
-### Ablation Study (F1 Progression)
 
-| Configuration | F1 |
-|---|---|
-| Expert Labels Only | 74% |
-| + Weak Supervision (No Filter) | 77% |
-| + Top-K Confidence Filter | 84% |
-| + XLM-RoBERTa Fine-tuning (Final) | 90% |
 
 ### Key Metrics
 
