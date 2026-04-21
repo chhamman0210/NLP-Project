@@ -83,7 +83,7 @@ India's criminal justice system faces:
 ### Model Comparison
 
 | Model | Accuracy | F1 | 
-|---|---|---|---|---|
+|---|---|---|
 | Logistic Regression (TF-IDF) | 87% | 89% | 
 | Linear SVC (TF-IDF) | 89% | 90% | 
 | BERT-base-uncased | 83% | 87% | 
